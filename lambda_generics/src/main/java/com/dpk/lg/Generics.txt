@@ -1,0 +1,10 @@
+Problems with Generics:
+
+1. Generics cannot be used in Overloading
+2. Generics cannot be used with instanceOf
+3. because of Generics we might end up havinf more space.
+int[] takes very less space than Integer[].
+each int takes only 4 bytes but Integer takes around 32 bytes (8x fatter)
+
+hence List<Integer> will always takes more space.
+So in java 10, it may come with a List<int>. awesome !
